@@ -29,6 +29,12 @@ proyecto/
 3. Asegurarse de que el notebook principal se pueda ejecutar de principio a fin sin errores.
 4. Publicar la página web del proyecto usando GitHub Pages desde la carpeta `web`.
 
+
+## Links
+- `https://deis.minsal.cl/#datosabiertos`
+- `https://bidat.gob.cl/details/ficha/dataset/821a7885-f823-4dc6-b2f9-80942a871991`
+- `https://bidat.gob.cl/details/ficha/dataset/4b86d40c-8622-4a83-a6f2-e63da0b044bf`
+
 ## Licencia
 
 Este repositorio está licenciado bajo Creative Commons CC-BY 4.0.
