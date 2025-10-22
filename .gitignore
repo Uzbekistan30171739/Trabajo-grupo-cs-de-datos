@@ -1,1 +1,10 @@
+# Carpetas de programas
+
 **/.ipynb_checkpoints/
+**/.idea/
+
+# ARCHIVOS MUY PESADOS PARA SUBIR
+
+/Data/dirty data/censo/2017/csv-personas-censo-2017/Microdato_Censo2017-Personas.csv
+/Data/dirty data/censo/2017/csv-personas-censo-2017/microdato_censo2017-personas.rar
+/Data/clean data/censo/2017/microdato2017.csv
