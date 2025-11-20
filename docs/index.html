@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Presentación Proyecto - IMT2200</title>
+
+    <style>
+        /* Estilos del Recuadro Contenedor */
+        .content_box {
+            width: 60%;
+            max-width: 1200px; /* Buena práctica para pantallas gigantes */
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        /* 🔑 ESTA ES LA REGLA QUE ARREGLA LA IMAGEN */
+        .content_box img {
+            max-width: 100%;
+            height: auto; /* Mantiene la proporción para que no se vea estirada */
+            display: block; /* Ayuda a eliminar espacios extra */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <header_1>Proyecto IMT2200</header_1>
+        </header>
+
+        <div class="subtitle_1">
+            <p>Contexto y Motivación del proyecto.</p>
+        </div>
+        <p>
+            Chile enfrenta una crisis demográfica impulsada por una disminución histórica y sostenida en la tasa de
+            fecundidad total (TFT), siendo este fenómeno la motivación central de nuestro proyecto. La tasa de
+            fecundidad total(TFT) se interpreta como el número promedio de hijos que una mujer tendría a lo largo de su
+            vida fértil. La tendencia a la baja comenzó aproximadamente en 1963, la TFT ya se situaba en 4,54 hijos por
+            mujer 62 años después en el 2023 el contraste es preocupante, la TFT alcanzó un valor de aproximadamente 1,2
+            hijos por mujer según datos del grupo banco mundial (datos.bancomundial.org). Este valor es alarmante
+            considerando que el nivel requerido para el reemplazo generacional y poder mantener una población estable en
+            la cual no haya migración es de aproximadamente 2.1 hijo por mujer, esta tasa indica que la generación
+            actual está siendo reemplazada sólo en un 57% por la siguiente, consolidando a Chile como una de las
+            naciones con la fecundidad más baja de América Latina. Esto nos lleva a dos grandes consecuencias; un
+            envejecimiento poblacional acelerado y una reducción de la base de la población económica activa. La
+            urgencia de esta situación demográfica motiva la investigación siendo nuestro objetivo poder identificar y
+            cuantificar la influencia de factores socioeconómicos y geográficos en la decisión de tener hijos. Este
+            análisis profundo es viable gracias a la disponibilidad de un ecosistema de datos públicos:
+            <br>- Datos socioeconómicos: bases del ministerio de desarrollo social y familia (BIDAT) para variables de vulnerabilidad junto con la localidad,
+            <br>- Contexto demográfico fino: utilización de datos del censo los cuales permiten asociar las tasas de natalidad a nivel comunal con la estructura poblacional detallada como los niveles educativos.
+            <br>- Disponibilidad de datos de nacimientos en serie desde 1992 permitiendo realizar análisis de tendencia y series de tiempo.
+        </p>
+
+        <a href="https://github.com/Uzbekistan30171739/Proyecto_cs_de_datos/blob/main/notebooks/analisis_final.ipynb" target="_blank">Ver Notebook proncipal</a>
+
+        <div class="subtitle_1">
+            <p>EDA</p>
+        </div>
+        <p>Se realizó un análisis simple de correlaciones entre algunas variable,s por ejemplo: Edad y Educacion de
+            madres y padres de hijos/as nacidos/as entre 1992 y 2022</p>
+        <div class="content_box">
+            <img src="../graficos/Correlaciones edad-educacion.png">
+        </div>
+        <p>Edad de los padres</p>
+        <div class="content_box">
+            <img src="../graficos/concentracion de edades.png">
+        </div>
+        <p>Tendencia de nacimientos en el tiempo</p>
+        <div class="content_box">
+            <img src="../graficos/Nacimientos en el tiempo.png">
+        </div>
+
+        <div class="subtitle_1">
+            <p>Proyección de población</p>
+        </div>
+        <p>Para el siguiente grafico se simpificó el proceso: La totalidad de los nacimientos se redujeron a una sola
+            dependencia x_y <br>x: año <br>y: total de nacidos<br>
+            El set de entrenamiento es la totalidad del set hasta el 2017 y el de prueba desde el 2017 hasta el 2022</p>
+        <div class="content_box">
+            <img src="../graficos/Regresion polinomial.png">
+        </div>
+
+        <div>
+            <a href="https://github.com/Uzbekistan30171739/Proyecto_cs_de_datos" target="_blank">Ver Proyecto completo</a>
+        </div>
+    </div>
+</body>
+</html>
