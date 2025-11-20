@@ -22,6 +22,18 @@ body {
     line-height: 2;
 }
 
+.content_box {
+  /* The element will occupy 75% of the screen's width */
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.content_box img {
+    max-width: 100%;
+    height: auto;
+}
 
 header {
     text-align: center;
