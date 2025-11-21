@@ -137,3 +137,12 @@ El análisis integra tres fuentes de datos principales:
 - Esteban Rodrigo Arias Serra
 - Gaspar Alejandro Yáñez Flores
 - María Paz Allendes Álvarez
+
+## Declaración de Uso de IA
+Siguiendo las políticas de integridad del curso, declaramos el uso de Inteligencia Artificial Generativa (Google Gemini) como herramienta de apoyo en las siguientes tareas:
+
+1.  **Visualización:** Se utilizaron consultas para ajustar detalles estéticos de los gráficos en `matplotlib` y `seaborn` (ej: rotación de etiquetas, paletas de colores).
+2.  **Limpieza de Datos:** Se solicitaron sugerencias de métodos eficientes en `pandas` para el manejo de valores nulos y estandarización de columnas.
+3.  **Documentación:** Se utilizó IA para generar la estructura base y mejorar la redacción técnica de este archivo `README.md`.
+
+*Nota: Todo el código y texto generado fue revisado, adaptado y verificado por el equipo.*
