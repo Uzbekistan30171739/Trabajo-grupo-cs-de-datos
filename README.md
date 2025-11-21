@@ -106,13 +106,26 @@ Este proyecto analiza tendencias demográficas en Chile, enfocándose en:
 - **Tendencia de natalidad**: Tendencia decreciente en nacimientos desde 1992
 - **Vulnerabilidad social**: Concentración de vulnerabilidad en comunas específicas
 - **Datos demográficos**: Cambios significativos en estructura de edad y educación
-
 ---
+## Preguntas de Investigación
+Este proyecto busca responder las siguientes interrogantes mediante el análisis de datos:
 
+1.  **Relación Educación-Maternidad:** ¿Existe una correlación entre el nivel educativo de la madre y la edad a la que tienen su primer hijo?
+    * *Hipótesis:* A mayor nivel educativo, se espera una postergación en la edad de maternidad.
+2.  **Evolución de la Vulnerabilidad:** ¿Cómo ha variado el porcentaje de hogares vulnerables en Chile (según el RSH) a lo largo del tiempo analizado?
+3.  **Distribución Regional:** ¿Cómo se distribuyen los nacimientos y la vulnerabilidad a nivel regional? (Con énfasis en el análisis comparativo de regiones, como la IV Región).
+4.  **Factores Demográficos:** ¿Qué grupos etarios concentran la mayor cantidad de nacimientos y cómo se relaciona esto con la vulnerabilidad socioeconómica?
+---
+## Datos Utilizados:
+El análisis integra tres fuentes de datos principales:
+- Registro Social de Hogares (RSH): Datos del Ministerio de Desarrollo Social que indican el tramo de vulnerabilidad de los hogares.
+- Estadísticas Vitales (Nacimientos): Datos del DEIS/INE sobre nacimientos, incluyendo edad de la madre y región.
+- Censo: Información demográfica base para normalizar datos poblacionales.
+---
 ##  Fuentes de Datos
 
 - [INE - Censos de Población](https://www.ine.gob.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/censo-de-poblacion-y-vivienda)
 - [Ministerio de Desarrollo Social - Índice de Vulnerabilidad Social](https://www.desarrollosocialyfamilia.gob.cl/)
 - BIDAT - Banco Integrado de Datos del Ministerio de Desarrollo Social y Familia (https://bidat.gob.cl/search?_token=IkVz0DXMD3zHxS6CXJfFNUHerAtfmLz0kZcDPj3g&search=Personas+en+RSH&selectedFormat=)
 - Series de nacimientos 1992-2022
-
+---
