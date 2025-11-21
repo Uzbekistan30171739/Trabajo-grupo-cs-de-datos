@@ -129,3 +129,11 @@ El análisis integra tres fuentes de datos principales:
 - BIDAT - Banco Integrado de Datos del Ministerio de Desarrollo Social y Familia (https://bidat.gob.cl/search?_token=IkVz0DXMD3zHxS6CXJfFNUHerAtfmLz0kZcDPj3g&search=Personas+en+RSH&selectedFormat=)
 - Series de nacimientos 1992-2022
 ---
+## Ejecución
+- Para replicar los resultados, se recomienda ejecutar el notebook principal: jupyter notebook notebooks/analisis_final.ipynb
+**Si se desea replicar el proceso de limpieza desde cero, ejecutar los notebooks de la carpeta notebooks/ en el orden descrito en la tabla anterior.**
+## Autores:
+- Boris Tomas Antillanca Salinas
+- Esteban Rodrigo Arias Serra
+- Gaspar Alejandro Yáñez Flores
+- María Paz Allendes Álvarez
