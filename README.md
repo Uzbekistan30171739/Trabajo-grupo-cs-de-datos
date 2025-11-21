@@ -75,12 +75,6 @@ Este proyecto analiza tendencias demográficas en Chile, enfocándose en:
 - Python 3.12.0+
 - Pandas, NumPy, Matplotlib, Seaborn, scikit-learn
 
-### Instalación de Dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
 ### Ejecución del Proyecto
 
 1. **Para análisis completo** (punto de entrada principal):
@@ -119,5 +113,6 @@ pip install -r requirements.txt
 
 - [INE - Censos de Población](https://www.ine.gob.cl/estadisticas/sociales/censos-de-poblacion-y-vivienda/censo-de-poblacion-y-vivienda)
 - [Ministerio de Desarrollo Social - Índice de Vulnerabilidad Social](https://www.desarrollosocialyfamilia.gob.cl/)
+- BIDAT - Banco Integrado de Datos del Ministerio de Desarrollo Social y Familia (https://bidat.gob.cl/search?_token=IkVz0DXMD3zHxS6CXJfFNUHerAtfmLz0kZcDPj3g&search=Personas+en+RSH&selectedFormat=)
 - Series de nacimientos 1992-2022
 
