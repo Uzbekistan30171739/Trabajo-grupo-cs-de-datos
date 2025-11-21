@@ -2,7 +2,7 @@
 
 **/.ipynb_checkpoints/
 **/.idea/
-
+.DS_Store
 # ARCHIVOS MUY PESADOS PARA SUBIR
 
 /Data/dirty data/censo/2017/csv-personas-censo-2017/Microdato_Censo2017-Personas.csv
