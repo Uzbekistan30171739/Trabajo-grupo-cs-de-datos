@@ -111,7 +111,6 @@ Este proyecto analiza tendencias demográficas en Chile, enfocándose en:
 Este proyecto busca responder las siguientes interrogantes mediante el análisis de datos:
 
 1.  **Relación Educación-Maternidad:** ¿Existe una correlación entre el nivel educativo de la madre y la edad a la que tienen su primer hijo?
-    * *Hipótesis:* A mayor nivel educativo, se espera una postergación en la edad de maternidad.
 2.  **Evolución de la Vulnerabilidad:** ¿Cómo ha variado el porcentaje de hogares vulnerables en Chile (según el RSH) a lo largo del tiempo analizado?
 3.  **Distribución Regional:** ¿Cómo se distribuyen los nacimientos y la vulnerabilidad a nivel regional? (Con énfasis en el análisis comparativo de regiones, como la IV Región).
 4.  **Factores Demográficos:** ¿Qué grupos etarios concentran la mayor cantidad de nacimientos y cómo se relaciona esto con la vulnerabilidad socioeconómica?
