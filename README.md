@@ -1,4 +1,5 @@
-# Proyecto IMT-2200: Análisis de Datos Demográficos de Chile
+# Análisis de la Relación entre Vulnerabilidad Socioeconómica, Educación y Natalidad en Chile
+## Proyecto IMT-2200: Análisis de Datos Demográficos de Chile
 
 ##  Descripción del Proyecto
 
